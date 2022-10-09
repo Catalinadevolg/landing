@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Адаптив-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!--Кодировка страницы-->
+	<meta charset="UTF-8">
+    <!--Подключение CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Подключение шрифта:-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<!--Заголовок страницы в браузере-->
+	<title>Доставка груза, таможенное оформление, сертификация товаров</title>
+	<!--Логотип-->
+	<link rel='icon' href='image/logo12.png' type='image'>
+	<!--Подключение библиотек-->
+	<script src="script/galleryCopy.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header_container">
+				<a href="#mainscreen" class="header_logo">
+					<img src="image/logo12.png" alt="Логотип">
+				</a>
+				<nav class="header_menu menu">
+					<ul class="menu_list">
+						<li class="menu_text menu_item"><a href="#services-block" class="menu_link">Услуги</a></li>
+						<li class="menu_text menu_item"><a href="#transport-block" class="menu_link">Транспорт</a></li>
+						<li class="menu_text menu_item"><a href="#clients-block" class="menu_link">Клиенты</a></li>
+						<li class="menu_text menu_item"><a href="#contacts-block" class="menu_link">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header_phone phone_text">
+					<a href="tel:+74952204661" class="phone_link">+7 (495) 220-46-61</a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section id="mainscreen" class="mainscreen">
+				<video autoplay="autoplay" muted="muted" loop="loop" poster="video/Trains.jpg" preload="metodata" class="mainscreen_video">
+					<source src="video/production ID_4081702.mp4" type="video/mp4">
+				</video>
+				<div class="mainscreen_shader _anim-items"></div>
+				<div class="mainscreen-block_container">
+					<div class="mainscreen_top">
+						<div class="mainscreen-head _anim-items">
+							<h1 class="mainscreen-block_title mainscreen-head_company">Global Service Company</h1>
+							<h1 class="mainscreen-head_text mainscreen-head_item">Международные перевозки</h1>
+							<h1 class="mainscreen-head_text mainscreen-head_item">Таможенное оформление</h1>
+							<h1 class="mainscreen-head_text mainscreen-head_item">Терминальная обработка</h1>
+						</div>
+					</div>
+					<div class="mainscreen_bottom">
+						<div class="mainscreen_form" method="post">
+							<div class="mainscreen-form_title">Получите бесплатную консультацию</div>
+							<form class="form_fields">
+								<input class="form_field mainscreen-form_field field-fio" placeholder="Имя" name="fio" type="text" required>
+								<input class="form_field mainscreen-form_field field-tel" placeholder="Телефон" name="tel" required>
+							</form>
+							<div class="form_privacy">
+								* Отправляя форму, Вы даёте своё согласие на
+								<a href="privacy.pdf" target="blank" rel="nofollow">обработку персональных данных</a>
+							</div>
+							<div id="form_result" class="form_result"></div>
+							<button class="form_button mainscreen-form_button" id="submit" type="submit">Отправить</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="services-block" class="services-block">
+				<div class="services-block_container">
+					<div class="services-block_title">В каких направлениях мы работаем</div>
+					<div class="services-block_grid">
+						<div class="grid_cell service-1">
+							<h2 class="cell_title service-1_title">Международные перевозки</h2>
+							<div class="cell_text service-1_text">Работаем по всему миру</div>
+						</div>
+						<div class="grid_cell service-2">
+							<h2 class="cell_title service-2_title">Перевозки по россии</h2>
+							<div class="cell_text service-2_text">Перевезём любой груз по лучшей цене</div>
+						</div>
+						<div class="grid_cell service-3">
+							<h2 class="cell_title service-3_title">Таможенное оформление</h2>
+							<div class="cell_text service-3_text">Оформляем всю необходимую при перевозке документацию</div>
+						</div>
+						<div class="grid_cell service-4">
+							<h2 class="cell_title service-4_title">Сборные грузы</h2>
+							<div class="cell_text service-4_text">Доставим груз любого объёма</div>
+						</div>
+						<div class="grid_cell service-5">
+							<h2 class="cell_title service-5_title">От двери до двери</h2>
+							<div class="cell_text service-5_text">Доставляем товар со склада отправителя до склада получателя</div>
+						</div>
+						<div class="grid_cell service-6">
+							<h2 class="cell_title service-6_title">Сертификация товаров</h2>
+							<div class="cell_text service-6_text">Оформим сертификаты и/или декларации соответствия на ваш груз</div>
+						</div>
+						<div class="grid_cell service-7">
+							<h2 class="cell_title service-7_title">Негабаритные грузы</h2>
+							<div class="cell_text service-7_text">Организуем перевозку негабаритного и/или тяжеловесного груза</div>
+						</div>
+						<div class="grid_cell service-8">
+							<h2 class="cell_title service-8_title">Складское хранение</h2>
+							<div class="cell_text service-8_text">Разместим на ответственное хранение товары и грузы любых типов</div>
+						</div>
+						<div class="grid_cell service-9">
+							<h2 class="cell_title service-9_title">Регистрация участника вэд</h2>
+							<div class="cell_text service-9_text">Проведём процедуру регистрации на таможне быстро и правильно</div>
+						</div>
+					</div>
+					<a href="https://wa.me/79163106113?text=Я%20хочу" class="whatsapp_button">Получить расчет стоимости в WhatsApp</a>
+					<div class="services-block_img _anim-items">
+						<img src="image/trak.png" alt="Грузовик">
+					</div>
+				</div>
+			</div>
+			<div id="transport-block" class="transport-block">
+				<div class="transport-block_container">
+					<div class="transport-block_title">С каким транспортом мы работаем</div>
+					<div class="transport-block_line">
+						<div class="transport railway">
+							<div class="transport_icon">
+								<img src="image/icon1.png" alt="Иконка поезд">
+							</div>
+							<div class="transport_text">Железнодорожный</div>
+						</div>
+						<div class="transport sea">
+							<div class="transport_icon">
+								<img src="image/icon2.png" alt="Иконка корабль">
+							</div>
+							<div class="transport_text">Морской</div>
+						</div>
+						<div class="transport auto">
+							<div class="transport_icon">
+								<img src="image/icon3.png" alt="Иконка грузовик">
+							</div>
+							<div class="transport_text">Автомобильный</div>
+						</div>
+						<div class="transport air">
+							<div class="transport_icon">
+								<img src="image/icon4.png" alt="Иконка самолёт">
+							</div>
+							<div class="transport_text">Авиа</div>
+						</div>
+					</div>
+					<div></div>
+					<div class="transport-block_img">
+						<img src="image/train.png" alt="Поезд">
+					</div>
+					<div class="transport-block_text">Компания Global Service Company предоставляет комплексное решение по транспортировке грузов любой сложности и объёма, гарантированное качество своих услуг и тщательный контроль на каждом этапе следования. </div>
+				</div>
+			</div>
+			<div id="clients-block" class="clients-block">
+				<div class="clients-block_container">
+					<div class="clients-block_title">Нам доверяют</div>
+					<div class="clients-block_text">
+						<div>Большинство компаний, которые когда-то обратились к нам, приходили снова и снова.</div>
+						<div>И каждый раз мы стараемся оправдать доверие своих клиентов.</div>
+					</div>
+					<div class="slider_wrap">
+						<div id="gallery">
+							<img src="image/Clients/AeroMar.svg" alt="Логотип Аэромар" class="sl">
+							<img src="image/Clients/Tigernu.png" alt="Логотип Тайгерню" class="sl">
+							<img src="image/Clients/Arc.png" alt="Логотип Арк" class="sl">
+							<img src="image/Clients/ASZ.png" alt="Логотип Ардатовского светотехнического завода" class="sl">
+							<img src="image/Clients/Rosteh.svg" alt="Логотип Ростеха" class="sl">
+							<img src="image/Clients/Zhuhai.png" alt="Логотип Weibery (Zhuhai) Mfg Co., Ltd." class="sl">
+							<img src="image/Clients/MasterGlass.png" alt="Логотип MasterGlass" class="sl">
+							<img src="image/Clients/BEIJING.png" alt="Логотип BEIJING DOUBLE DRAGON INTERNATIONAL INDUSTRIAL&MINING" class="sl">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="contacts-block" class="contacts-block">
+				<div class="contacts-block_container">
+					<div class="contacts-block_about">
+						<div class="about_title _anim-items">О нас</div>
+						<div class="about_company contacts-block_title _anim-items">Global service company</div>
+						<div class="about_text _anim-items">Транспортно-экспедиционная компания, осуществляющая доставку грузов по территории  России всеми видами транспорта, а также осуществляющая международные перевозки из стран Азиатско-Тихоокеанского региона (Китай, Япония, Южная Корея, Тайвань, Тайланд и др.), Америки и Европы.</div>
+					</div>
+					<div class="contacts-block_form">
+						<div class="contacts-form-mobile_button">Написать</div>
+						<div class="contacts-form">
+							<div class="contacts-form_title">Напишите нам</div>
+							<form>
+    							<div class="contacts-form_top-line">
+    								<input class="form_field contacts-form_field field-name" placeholder="Имя" type="text" name="imya" required>
+    								<input class="form_field contacts-form_field field-mail" placeholder="Эл.почта" type="email" name="email" required>
+    							</div>
+    							<textarea class="form_field contacts-form_field field-message" name="message" cols="40" rows="10" placeholder="Добавить сообщение..." required></textarea>
+							</form>
+							<div class="form_privacy contacts-form_privacy">
+								* Нажимая на кнопку, Вы даёте своё согласие на
+								<a href="privacy.pdf" target="blank" rel="nofollow">обработку персональных данных</a>
+							</div>
+							<div id="form_result2" class="form_result"></div>
+							<button class="form_button contacts-form_button" id="submit2" type="submit">Отправить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer_container">
+				<div class="footer_grid">
+					<div class="footer_logo"><a href="#mainscreen" class="footer_logo-icon"><img src="image/logo12.png" alt="Логотип"></a></div>
+					<div class="footer_right">© 2022 ооо "глобал сервис компани"</div>
+					<div class="footer_name">ооо "глобал сервис компани"</div>
+					<div class="footer_inn">инн: 7720652154</div>
+					<div class="footer_kpp">кпп: 772001001</div>
+					<div class="footer_ogrn">огрн: 1097746024012</div>
+					<a href="tel:+74952204661" class="footer_tel">+7 (495) 220-46-61</a>
+					<a href="mailto:gsc@globalsctrans.ru?subject=Обращение в GSC" class="footer_mail">gsc@globalsctrans.ru</a>
+					<a href="https://www.globalsctrans.ru/" class="footer_site">www.globalsctrans.ru</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!--Слайдер-->
+	<script src="script/index.js"></script>
+	<!--Анимация-->
+	<script src="script/AnimExample.js" type="text/javascript"></script>
+	<!--Форма в maincreen-->
+	<script>
+		const submit = document.querySelector('#submit');
+		submit.addEventListener('click', function() {
+			let name = document.querySelector('input[name=fio]').value;
+			let tel = document.querySelector('input[name=tel]').value;
+			let otpravka = true;
+			if (otpravka) {
+				let dannie = {'polz_name':name, 'polz_tel':tel};
+			    let boundary = String(Math.random()).slice(2);
+                let boundaryMiddle = '--' + boundary + '\r\n';
+                let boundaryLast = '--' + boundary + '--\r\n'
+                let body = ['\r\n'];
+                for (let key in dannie) {
+                    body.push('Content-Disposition: form-data; name="' + key + '"\r\n\r\n' + dannie[key] + '\r\n');
+                }
+                body = body.join(boundaryMiddle) + boundaryLast;
+
+				let xhr = new XMLHttpRequest();
+			    xhr.open('POST', 'script/senda.php', 'true');
+			    xhr.responseType = 'json';
+			    xhr.setRequestHeader("Content-type", "multipart/form-data; boundary=" + boundary);
+			    xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+			    xhr.onload = function() {
+			        let responseObj = xhr.response;
+			        let otvet = responseObj.text;
+			        if (xhr.status == 200) {
+    			        func(otvet);
+    			    }
+			    }
+			    xhr.send(body);
+			}
+			function func(text) {
+			        const result = document.querySelector('.form_result');
+			        result.innerHTML = `<div class="result">${text}</div>`;
+			}
+		})
+	</script>
+	<!--Форма в contacts-->
+	<script>
+		const submit2 = document.querySelector('#submit2');
+		submit2.addEventListener('click', function() {
+			let name2 = document.querySelector('input[name=imya]').value;
+			let email = document.querySelector('input[name=email]').value;
+			let message = document.querySelector('textarea[name=message]').value;
+			let otpravka2 = true;
+
+			if (otpravka2) {
+				let dannie2 = {'polz_name':name2, 'polz_email':email, 'polz_message':message};
+				let boundary = String(Math.random()).slice(2);
+                let boundaryMiddle = '--' + boundary + '\r\n';
+                let boundaryLast = '--' + boundary + '--\r\n'
+                let body = ['\r\n'];
+                for (let key in dannie2) {
+                    body.push('Content-Disposition: form-data; name="' + key + '"\r\n\r\n' + dannie2[key] + '\r\n');
+                }
+                body = body.join(boundaryMiddle) + boundaryLast;
+
+				let xhr = new XMLHttpRequest();
+			    xhr.open('POST', 'script/sendb.php', 'true');
+			    xhr.responseType = 'json';
+			    xhr.setRequestHeader("Content-type", "multipart/form-data; boundary=" + boundary);
+			    xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+			    xhr.onload = function() {
+			        let responseObj = xhr.response;
+			        let otvet = responseObj.text;
+			        if (xhr.status == 200) {
+    			        func(otvet);
+    			    }
+			    }
+			    xhr.send(body);
+			}
+			function func(text) {
+			        const result2 = document.querySelector('.contacts-form_result');
+			        result2.innerHTML = `<div class="result">${text}</div>`;
+			}
+		})
+	</script>
+</body>
+</html>
